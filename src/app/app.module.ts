@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PessoaModule } from './pessoa/pessoa.module';
 import { CidadeModule } from './cidade/cidade.module';
+import { EstadoModule } from './estado/estado.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CidadeModule } from './cidade/cidade.module';
     BrowserModule,
     AppRoutingModule,
     PessoaModule,
-    CidadeModule
+    CidadeModule,
+    EstadoModule  
   ],
   providers: [],
   bootstrap: [AppComponent]
